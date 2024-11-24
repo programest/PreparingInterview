@@ -1,0 +1,38 @@
+
+.filter {
+  margin-bottom: 5%;
+  overflow-x: auto; /* Добавляем горизонтальную прокрутку */
+  overflow-y: hidden; /* Отключаем вертикальную прокрутку */
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  gap: 30px; /* Отступы между блоками */
+  scrollbar-width: none; /* Скрыть скроллбар в Firefox */
+  -ms-overflow-style: none; /* Скрыть скроллбар в IE и Edge */
+
+  &::-webkit-scrollbar {
+    display: none; /* Скрыть скроллбар в Chrome, Safari и других WebKit-браузерах */
+  }
+
+  &__block {
+    cursor: pointer;
+    flex: 0 0 auto; /* Блоки не растягиваются и не сжимаются */
+    width: 30%;
+    height: 60px;
+    background-color: #fff;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: center;
+  }
+
+  &__item {
+    color: black; /* Пример стиля текста */
+    font-weight: bold;
+  }
+}
+.selected{
+
+  background-color: rgb(42, 42, 240) !important;
+}

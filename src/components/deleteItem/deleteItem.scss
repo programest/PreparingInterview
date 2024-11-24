@@ -1,0 +1,40 @@
+.delete {
+    width: 100%;
+    position: relative;
+    &__textBlock {
+      margin-bottom: 20px;
+      height:50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      border-radius: 30px;
+      background-color: #f51818;
+    }
+    &__text {
+      text-align: center;
+    }
+    &__block {
+ 
+        right: 20%;
+        position: absolute;
+      background-color: #f51818;
+      display: flex;
+      width: 70px;
+      height: 70px;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  }
+  
+  .selected{
+    background-color: rgb(35, 35, 228) !important;
+    color: #ffff;
+  }
+  .active{
+    right: 0%;
+  }
+  

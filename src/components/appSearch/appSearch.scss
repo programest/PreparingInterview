@@ -1,0 +1,24 @@
+.search {
+    margin-bottom: 7%;
+    width: 100%;
+    &__block {
+      background-color: #fff;
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      border-radius: 50px;
+      padding: 10px;
+    }
+  
+    &__input {
+      flex-grow: 1; /* Растягиваем input на всю доступную ширину */
+      border: none; /* Убираем стандартную рамку */
+      background: transparent; /* Убираем фоновый цвет */
+      color: inherit; /* Наследует цвет текста от родительского элемента */
+      font: inherit; /* Наследует шрифт */
+      padding: 0; /* Убираем отступы по умолчанию */
+      width: 100%; /* Чтобы точно растягивался по ширине */
+      outline: none; /* Убираем контур при фокусе */
+    }
+  }
+  

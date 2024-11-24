@@ -1,0 +1,27 @@
+.selectable-circle {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 100%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: background-color 0.3s, border-color 0.3s;
+  
+    &.selected {
+      background-color: #4caf50;  // Цвет фона, когда выбран
+      border-color: #388e3c;      // Цвет обводки, когда выбран
+    }
+  
+    svg {
+      stroke: white;
+    }
+  
+    &:hover {
+      background-color: #e0e0e0;  // Цвет фона при наведении
+    }
+  }
+  
