@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PreparingInterview/static/css/main.0722370d.css",
+    "main.js": "/PreparingInterview/static/js/main.667cb82f.js",
+    "static/js/453.5bf40bb7.chunk.js": "/PreparingInterview/static/js/453.5bf40bb7.chunk.js",
+    "index.html": "/PreparingInterview/index.html",
+    "main.0722370d.css.map": "/PreparingInterview/static/css/main.0722370d.css.map",
+    "main.667cb82f.js.map": "/PreparingInterview/static/js/main.667cb82f.js.map",
+    "453.5bf40bb7.chunk.js.map": "/PreparingInterview/static/js/453.5bf40bb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0722370d.css",
+    "static/js/main.667cb82f.js"
+  ]
+}
