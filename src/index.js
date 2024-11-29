@@ -4,8 +4,11 @@ import './index.css';
 import App from './components/app/App';
 import reportWebVitals from './reportWebVitals';
 import { DataProvider } from './hooks/DataContext';
-
+import './firebase'
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+
 root.render(
   <DataProvider>
     <React.StrictMode>

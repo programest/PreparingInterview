@@ -1,6 +1,7 @@
-.delete {
-    position: relative;
-    margin: 10px;
+.edit {
+ 
+    margin: 10px 10px 10px 10px;
+
 
     &__textBlock {
       margin-bottom: 20px;
@@ -10,14 +11,15 @@
       align-items: center;
       width: 100%;
       border-radius: 30px;
-      background-color: #f51818;
+      background-color: #0088f8;
     }
     &__text {
       text-align: center;
+      color: #ffff;
     }
     &__block {
-      
-      background-color: #f51818;
+
+      background-color: #0088f8;
       display: flex;
       width: 70px;
       height: 70px;
@@ -28,12 +30,7 @@
     }
   
   }
-  .activeRemove{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
+  
   .selected{
     background-color: rgb(35, 35, 228) !important;
     color: #ffff;
@@ -41,4 +38,9 @@
   .active{
     right: 0%;
   }
-  
+  .activeEdit{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
